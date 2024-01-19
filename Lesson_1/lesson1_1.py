@@ -8,9 +8,6 @@ import pandas as pd
 # Index
 # Lable - Значение
 
-pd.DataFrame([[1,5,6,3],[2,10,12,6]],
-             index = ['station_1', 'station_2'],
-             columns=['wind', 'solar', 'pressure', 'speed'])
 
 
 df = pd.read_csv('data.csv', encoding='1251')
